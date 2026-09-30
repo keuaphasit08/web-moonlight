@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ขอใบเสนอราคา / ติดต่อเรา - Moonvera Plus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Moonvera <span>Plus<sup>+</sup></span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="products.html">สินค้า</a></li>
+        <li><a href="custom-service.html">บริการรับผลิต</a></li>
+        <li><a href="corporate.html">สำหรับองค์กร</a></li>
+        <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+      </ul>
+      <a href="contact.html" class="btn-quote">ขอใบเสนอราคา</a>
+    </nav>
+  </header>
+
+  <main class="container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+    <!-- Form Section -->
+    <section>
+      <h2>ขอใบเสนอราคาฟรี</h2>
+      <form action="#" method="POST" style="margin-top: 1.5rem;">
+        <div class="form-group">
+          <label>ชื่อ - นามสกุล / บริษัท</label>
+          <input type="text" placeholder="ระบุชื่อหรือชื่อบริษัท" required>
+        </div>
+        <div class="form-group">
+          <label>เบอร์โทรศัพท์</label>
+          <input type="tel" placeholder="08X-XXX-XXXX" required>
+        </div>
+        <div class="form-group">
+          <label>Line ID</label>
+          <input type="text" placeholder="ระบุ Line ID">
+        </div>
+        <div class="form-group">
+          <label>สินค้าที่ต้องการ</label>
+          <select>
+            <option>เลือกประเภทสินค้า</option>
+            <option>หมวก</option>
+            <option>เสื้อ</option>
+            <option>กระเป๋า</option>
+            <option>แก้วน้ำ</option>
+            <option>ร่ม</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>รายละเอียดเพิ่มเติม</label>
+          <textarea rows="4" placeholder="ระบุจำนวน วันที่ต้องการใช้สินค้า หรือข้อมูลอื่นๆ"></textarea>
+        </div>
+        <button type="submit" class="btn-quote" style="width: 100%; border: none; cursor: pointer;">ส่งข้อมูลขอใบเสนอราคา</button>
+      </form>
+    </section>
+
+    <!-- Info Section -->
+    <section>
+      <h2>ช่องทางการติดต่อ</h2>
+      <div style="margin-top: 1.5rem; background: #FFF; padding: 2rem; border-radius: 8px; border: 1px solid var(--border-color);">
+        <p><strong>Line:</strong> @moonvera.plus</p>
+        <p><strong>Tel:</strong> 099-6137259</p>
+        <p><strong>Facebook:</strong> Moonvera Plus</p>
+        <p><strong>Email:</strong> sales@moonveraplus.com</p>
+        <br>
+        <p><strong>ที่อยู่บริษัท:</strong> 10300 กรุงเทพมหานคร</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-bottom">&copy; Moonvera Plus. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
